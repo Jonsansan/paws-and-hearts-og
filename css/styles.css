@@ -3,3 +3,12 @@
 .row {
   justify-content: center;
 }
+
+.doggo {
+  justify-content: right;
+  align-items: right;
+}
+
+.container.mt-5 {
+  background-color: #772fd2;
+}
