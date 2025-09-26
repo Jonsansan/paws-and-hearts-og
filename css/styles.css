@@ -60,6 +60,25 @@
   color: #772fd2;
 }
 
+/* Meet button style (full-width purple pill) */
+.btn-meet {
+  display: inline-block;
+  width: 100%;
+  padding: 0.85rem 1.25rem;
+  background: linear-gradient(90deg, #7c3aed 0%, #8b5cf6 100%);
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  box-shadow: 0 6px 16px rgba(124, 58, 237, 0.18);
+  text-align: center;
+}
+.btn-meet:hover,
+.btn-meet:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(124, 58, 237, 0.22);
+}
+
 /* Grouped carousel controls */
 .carousel-control-prev,
 .carousel-control-next {
@@ -76,4 +95,63 @@
   filter: invert(100%);
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.secrion {
+  padding: 3rem 0;
+  background-color: #f6f7f9; /* light gray band like the reference */
+}
+
+.secrion .stat-card {
+  background: transparent; /* no white cards like the reference */
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.secrion .stat-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 16px rgba(16, 24, 40, 0.06);
+}
+
+.secrion .stat-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.secrion h5 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #111827;
+}
+
+.secrion h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #6b7280;
+  text-transform: none;
+}
+
+/* Color variants for icon circles */
+.secrion .icon-purple {
+  background: #8b5cf6;
+}
+.secrion .icon-teal {
+  background: #06b6d4;
+}
+.secrion .icon-orange {
+  background: #f59e0b;
+}
+
+.secrion .stat-icon i {
+  color: #fff;
 }
